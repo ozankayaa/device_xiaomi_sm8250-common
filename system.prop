@@ -55,3 +55,7 @@ ro.spark.device.name=Mi 10T/Pro
 ro.spark.group.url=https://t.me/OzansCave
 ro.spark.maintainer=Realizeyes
 ro.spark.maintainer.username=Realizeyes
+
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
