@@ -9,3 +9,6 @@ allow init proc_last_kmsg:file {
 };
 
 allow init adsprpcd_file:file mounton;
+
+# Allow init to wrtie to sysfs_battery_supply
+allow init sysfs_battery_supply:file { setattr };
